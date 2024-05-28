@@ -1,0 +1,51 @@
+.header{
+    background-color: rgb(155, 155, 249);
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-around;
+}
+#player-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 25px;
+}
+.card-img{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+}
+.card{
+    border: 1px solid gray;
+    padding: 5px;
+    width: 200px;
+    height: 300px;
+    
+}
+.player-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid gray;
+}
+.search-bar{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+}
+.cart-main-container{
+    height: 500px;
+    flex-wrap: wrap;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.add-to-group{
+    margin: 5px;
+}
